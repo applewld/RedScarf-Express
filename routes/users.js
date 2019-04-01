@@ -182,13 +182,13 @@ router.post('/sendEmailToMe',function (req,res,next) {
     var transporter = nodemailer.createTransport({
         service: 'qq',
         auth: {
-            user: '2550546705@qq.com',
-            pass: 'rvtcvevosjjfeagh'
+            user: '********@qq.com',
+            pass: '****************'
         }
     });
     var mailOptions = {
-        from: '2550546705@qq.com ', // sender address
-        to: '158338402@qq.com',
+        from: '*******@qq.com ', // sender address
+        to: '*******@qq.com',
         subject: '红领巾用户反馈',
         text: content
     };
